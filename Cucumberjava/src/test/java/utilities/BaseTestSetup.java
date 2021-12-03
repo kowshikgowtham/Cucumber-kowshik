@@ -65,7 +65,7 @@ public class BaseTestSetup {
         try {
             System.out.println("Launching google chrome with new profile..");
             try{
-            System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Kowshik\\\\eclipse-workspace\\\\Cucumberjava\\\\src\\\\test\\\\resources\\\\Drivers\\\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Kowshik\\\\git\\\\Cucumber-kowshik\\\\Cucumberjava\\\\src\\\\test\\\\resources\\\\Drivers\\\\chromedriver.exe");
             }
             catch(Exception e)
             {

@@ -27,21 +27,9 @@ public class SeleniumAlert {
 		Actions kowshik=new Actions(BaseTestSetup.driver);
 		kowshik.moveToElement(Element);
 	    kowshik.moveToElement(SAlert).click().build().perform();
-	    BaseTestSetup.driver.navigate().refresh();
-	    Thread.sleep(3000);
-	    WebElement Element1= BaseTestSetup.driver.findElement(By.xpath("(//*[contains(text(),'Selenium Practice')])[1]"));
-		WebElement SAlert1= BaseTestSetup.driver.findElement(By.xpath("(//*[contains(text(),'Alert')])[1]"));
-		kowshik.moveToElement(Element1);
-	    kowshik.moveToElement(SAlert1).click().build().perform();
-	  
-	    
+	    Thread.sleep(5000);
 	    BaseTestSetup.driver.findElement(By.xpath("//button[@id=\"alertBox\"]")).click();
-	    
-	   
-	   
-	  
-	   
-	}
+	    }
 
 	@And("click all alert buttons")
 	public void click_all_alert_buttons() throws InterruptedException  {
